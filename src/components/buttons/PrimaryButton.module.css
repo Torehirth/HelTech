@@ -4,9 +4,9 @@
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-bold);
   text-align: center;
-  background-color: var(--color-contact-button);
-  color: var(--color-contact-button-text);
-  padding: 0.75rem 1.75rem;
+  background-color: #a52d00;
+  color: white;
+  padding: 0.65rem 1.3rem;
   border-radius: var(--border-radius);
 }
 

@@ -6,7 +6,7 @@ Frontend webshop built with React, TypeScript, and Vite.
 
 
 🔗 **Live site**  
-[HelTech online shop](https://heltech.netlify.app/)
+[HelTech online shop](https://tmh-heltech.netlify.app/)
 
 📁 **Project planning**  
 [GitHub Projects](https://github.com/users/Torehirth/projects/7)

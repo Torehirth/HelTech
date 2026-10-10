@@ -6,7 +6,8 @@
 .cardContainer {
   display: flex;
   border-radius: var(--border-radius);
-  box-shadow: 1px 1px 4px var(--color-header-bg);
+  background-color: var(--color-green);
+  /* box-shadow: 1px 1px 4px var(--color-header-bg); */
   padding: 1.5rem;
   max-height: 12rem;
 }
@@ -32,7 +33,6 @@
 
 .discountedPrice {
   font-size: var(--font-size-md);
-  color: var(--color-accent);
   font-weight: var(--font-weight-bold);
 }
 
@@ -73,9 +73,9 @@
 .delButton {
   display: flex;
   align-items: center;
-  filter: opacity(0.9);
   gap: 0.25rem;
-  color: var(--color-error);
+  color: var(--color-white);
+  opacity: 95%;
 }
 
 .trashIcon {

@@ -4,8 +4,8 @@
   font-size: var(--font-size-md);
   font-weight: var(--font-weight-bold);
   text-align: center;
-  background-color: #a52d00;
-  color: white;
+  background-color: var(--color-mild-terracotta);
+  color: black;
   padding: 0.65rem 1.3rem;
   border-radius: var(--border-radius);
 }

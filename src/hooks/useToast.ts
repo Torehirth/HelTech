@@ -11,7 +11,7 @@ export function useToast() {
     const latest = toasts[toasts.length - 1];
     const timer = setTimeout(() => {
       removeToast(latest.id);
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, [toasts, removeToast]);
   return { toasts, removeToast };

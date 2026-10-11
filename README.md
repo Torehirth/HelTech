@@ -1,17 +1,15 @@
+
 # HelTech Online Shop
 
 Frontend webshop built with React, TypeScript, and Vite.
 
-<p align="center"><img width="900" height="510" alt="Holidaze preview" src="https://github.com/user-attachments/assets/9323ac80-e335-4837-be84-70c43c2d9ff4" /></p>
+<p align="center">
+  <img width="900" height="510" alt="HelTech online shop preview" src="https://github.com/user-attachments/assets/9323ac80-e335-4837-be84-70c43c2d9ff4" />
+</p>
 
+**Live Site:** [HelTech Online Shop](https://tmh-heltech.netlify.app/)
 
-🔗 **Live site**  
-[HelTech online shop](https://tmh-heltech.netlify.app/)
-
-📁 **Project planning**  
-[GitHub Projects](https://github.com/users/Torehirth/projects/7)
-
----
+**Project Planning:** [GitHub Projects](https://github.com/users/Torehirth/projects/7)
 
 ## About
 
@@ -19,72 +17,70 @@ This project was developed as part of a school assignment and is a collaboration
 
 The main focus was learning modern frontend development while keeping the stack simple and using as few libraries as possible.
 
-The application includes a complete webshop flow with several core features implemented, including global state management using Zustand.
-
-
+The application includes a complete webshop flow, with global state management using Zustand.
 
 ## Features
 
-- Product listing and details  
-- Cart functionality  
-- Checkout flow with success page  
-- Contact page  
-- Routing and 404 handling  
-
----
+- Product listing and details
+- Shopping cart functionality
+- Checkout flow with success page
+- Contact page
+- Routing and 404 handling
+- Responsive design
 
 ## Tech Stack
 
-- React  
-- TypeScript  
-- Vite  
-- React Router
-- Zustand
-- Vitest  
-- Testing Library  
-- ESLint  
-- Prettier  
-
----
+- **Frontend:** React, TypeScript, Vite
+- **Routing:** React Router
+- **State Management:** Zustand
+- **Testing:** Vitest, React Testing Library
+- **Tooling:** ESLint, Prettier, npm, Git
+- **Deployment:** Netlify
 
 ## Getting Started
 
-### Install dependencies
+1. Clone the repository:
 
-npm install
+   ```bash
+   git clone https://github.com/Torehirth/HelTech.git
+   cd HelTech
+   ```
 
-### Start development server
+2. Install dependencies:
 
-npm run dev
+   ```bash
+   npm install
+   ```
 
----
+3. Start the development server:
 
-## Scripts
+   ```bash
+   npm run dev
+   ```
 
-npm run dev       # development server  
-npm run build     # production build  
-npm run preview   # preview build  
-npm run test      # run tests  
-npm run lint      # lint code  
-npm run format    # format code  
+## Available Scripts
 
----
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Create production build |
+| `npm run preview` | Preview production build |
+| `npm run test` | Run tests |
+| `npm run lint` | Run ESLint |
+| `npm run format` | Format code with Prettier |
 
 ## Project Structure
 
-- `components` – reusable UI  
-- `features` – pages and logic  
-- `hooks` – custom hooks  
-- `styles` – global styles  
-- `types` – TypeScript types  
-- `utils` – helper functions
-- `store` – Zustand Store 
+- `components` – Reusable UI components
+- `features` – Pages and feature logic
+- `hooks` – Custom React hooks
+- `styles` – Global styles
+- `types` – TypeScript definitions
+- `utils` – Helper functions
+- `store` – Zustand state management
 
----
+## Collaboration
 
-## Notes
+HelTech was developed by two students, with an emphasis on collaboration using Git and GitHub, reusable components, and maintaining a clear project structure.
 
-- Collaboration between two developers  
-- Focus on learning and implementation  
-- Minimal use of external libraries  
-- Emphasis on clean structure and reusable components  
+The project provided practical experience with React, TypeScript, state management, automated testing, and working together on a shared codebase.
